@@ -58,6 +58,34 @@ name and password as your hotspot, the speaker can't tell them apart.
 4. Turn that network off. Turn **your** hotspot on.
 5. Within a minute or two the speaker joins your hotspot by itself.
 
+## Method C: Only an iPhone + a Mac (no second phone)
+
+The Mac takes internet from the iPhone over a **USB cable** and broadcasts its own Wi-Fi.
+You set the speaker up on the Mac's Wi-Fi, then give your iPhone hotspot the **same name and
+password** so the speaker moves over by itself (same idea as Method B).
+
+> Untested combination: it relies on the iPhone sharing internet over USB while it is joined to the
+> Mac's Wi-Fi. If Google Home reports "no internet" at step 4, use Method A.
+
+1. **iPhone → Mac by cable.** Turn on Personal Hotspot, plug the iPhone into the Mac, tap **Trust**.
+2. **On the Mac:** System Settings → General → Sharing → **ⓘ** next to **Internet Sharing**:
+   - Share your connection from: **iPhone USB**
+   - To devices using: **Wi-Fi**
+   - **Wi-Fi Options…** → Network Name `MirajHome`, Security **WPA2/WPA3 Personal**, Password `miraj12345`
+     (any simple name/password works; just remember them exactly)
+   - Turn **Internet Sharing** on.
+3. **On the iPhone:** Settings → Wi-Fi → join `MirajHome`.
+4. Open **Google Home** → **+ → Set up device → New device**, and give the speaker the `MirajHome` Wi-Fi.
+5. **Make the hotspot identical:**
+   - Settings → General → About → **Name** → `MirajHome`
+   - Settings → Personal Hotspot → **Wi-Fi Password** → `miraj12345`
+6. Turn off Internet Sharing on the Mac, unplug the cable, turn the iPhone hotspot on
+   (**Maximize Compatibility** ON).
+7. Wait 1–2 minutes → "Hey Google, what time is it?"
+
+**Quick first try (no Mac needed):** with the hotspot on, run Google Home setup directly on the same
+iPhone. It sometimes works with newer app versions; if it ends in "Couldn't communicate", use Method A or C.
+
 ---
 
 ## Step 2: Check it worked

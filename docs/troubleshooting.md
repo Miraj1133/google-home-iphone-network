@@ -10,6 +10,9 @@
 | Speaker joined, but no voice answers | Check the iPhone has mobile data (try a website on the iPhone). Low-data mode can slow it. |
 | Can't cast from the hotspot iPhone | Expected sometimes. Use "Hey Google, play … on Spotify/YouTube Music" or cast from a second device on the hotspot. |
 | Method B didn't switch over | The name/password must match **exactly** (capitals, spaces). Unplug and re-plug the speaker after turning your hotspot on. |
+| Method C: Mac has no "iPhone USB" option | Unlock the iPhone, tap **Trust**, keep Personal Hotspot on; try another cable. |
+| Method C: Wi-Fi option greyed out in Internet Sharing | Pick "iPhone USB" as the source first; the Mac's Wi-Fi must not be the source. |
+| Method C: "No internet" during setup | The iPhone can't share over USB while on the Mac's Wi-Fi. Use Method A (borrow a phone for 5 min). |
 | "Device not supported" in app | Update the Google Home app. Very old firmware updates itself once it's online. |
 
 ## Useful facts
